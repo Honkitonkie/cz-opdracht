@@ -1,3 +1,7 @@
+#Start
+npm install 
+npm run dev
+
 # Opdracht
 
 Het is aan jou om een ‘Collapsible Dropdown’ component te maken in React volgens het 
