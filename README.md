@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Opdracht
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Het is aan jou om een ‘Collapsible Dropdown’ component te maken in React volgens het 
+aangeleverde ontwerp. Gebruik wat willekeurige ‘mock’ data in je uitwerking, zoals wat 
+dieren in het ontwerp.
+Graag ontvangen we de code en een manier om lokaal het resultaat te bekijken. Kies 
+bijvoorbeeld een online editor als JSFiddle en stuur ons een link. Of bootstrap een app met
+Create React App of Next.js en stuur ons de bestanden in een zip. Alternatieven zijn ook 
+denkbaar. Als je dit lastig vindt kunnen we je een kant en klare opzet sturen.
+Je hebt maximaal 4 uur. Het is geen doel op zich om alles af te hebben. We zijn vooral
+benieuwd naar je manier van werken en je ideeën bij de opdracht. We waarderen een kort 
+bericht terug hoe je de opdracht ervaren hebt en wat je nog zou doen als je meer tijd had.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Aandachtspunten;
+- Er zijn geen vereisten aan verdere inrichting behalve React. Kies zelf hoe je 
+bijvoorbeeld met styling om wil gaan.
+- Je hebt in je uitwerking oog voor detail.
+- React component heeft de volgende props:
+o ‘options’, required, array of options to choose from
+o ‘onChange’, required, exposing on change event
+o ‘value, optional, default value to select
+- Je bent je bewust van accessibility (A11Y) voorschriften. Denk daarbij aan HTMLstructuur, ARIA attributes en keyboard support.
+- Tip: implementeer een simpele CSS reset zoals minireset.css.
+- Tip: Google op accessibility (A11Y) voorbeelden.
