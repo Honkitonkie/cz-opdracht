@@ -22,3 +22,5 @@ o ‘value, optional, default value to select
 - Je bent je bewust van accessibility (A11Y) voorschriften. Denk daarbij aan HTMLstructuur, ARIA attributes en keyboard support.
 - Tip: implementeer een simpele CSS reset zoals minireset.css.
 - Tip: Google op accessibility (A11Y) voorbeelden.
+
+![design](https://user-images.githubusercontent.com/38691523/162198847-0d4cc480-9f1e-4e68-b571-9c7b4b54b931.jpg)
