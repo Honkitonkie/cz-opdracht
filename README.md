@@ -1,5 +1,4 @@
-#Start
-npm install && npm run dev
+Om te starten, clone repo, npm install, npm run dev
 
 # Opdracht
 
